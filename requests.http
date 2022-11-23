@@ -1,0 +1,28 @@
+###
+POST http://localhost:3999/api/users HTTP/1.1
+Content-Type: application/json 
+
+{
+  "name": "David el chupa pijas",
+  "age": 12,
+  "email": "David12@gmail.com"  
+}
+
+###
+GET http://localhost:3999/api/users HTTP/1.1
+
+###
+GET http://localhost:3999/api/users/637daea7be186645c39d747f HTTP/1.1
+
+###
+PUT http://localhost:3999/api/users/637db15698c615048c943b9b HTTP/1.1
+Content-Type: application/json 
+
+{
+  "name": "DaNIEL EL GAY",
+  "age": 12,
+  "email": "David12@gmail.com"  
+}
+
+###
+DELETE http://localhost:3999/api/users/637db15698c615048c943b99 HTTP/1.1
